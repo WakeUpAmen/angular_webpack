@@ -1,7 +1,7 @@
 /* styles in src/style directory are applied to the whole page */
 body {
   background: #0147A7;
-  color: #fff;
+  color: yellow;
 }
 
 a {
@@ -19,4 +19,43 @@ main {
 footer {
   text-align: center;
   font-size: 0.8em;
+}
+
+/*body, html {
+    font-family: "Coco Gothic",SF-UI-Display,"Helvetica Neue",Helvetica,"PingFang SC","Lantinghei SC","Microsoft Yahei","Hiragino Sans GB",Arial,sans-serif;
+}*/
+/*main {
+    color: #4A4A4A;
+    font-size: 1.6em;
+    font-weight: 300;
+    letter-spacing: .01em;
+    line-height: 1.6;
+    max-width: none;
+    min-width: 32rem;
+    margin: 0;
+}*/
+.container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.container, body {
+    margin-left: auto;
+    margin-right: auto;
+}
+.contents {
+  text-align: center;
+  margin-bottom: 0.5cm;
+}
+.contents.img{
+  width:100px;
+  height:100px;
+}
+#shopname{
+  font-size: 0.9em;
+  margin: 0;
+}
+#deliveryfee{
+  font-size: 0.5em;
+  color: gray;
+  margin:0;
 }

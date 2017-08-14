@@ -1,0 +1,34 @@
+[
+  {
+    "tags": "sichuan",
+    "delivery": {
+        "fee": 0,
+        "minimum": 20
+    },
+    "name": "ICHIBAN四川"
+  },
+  {
+    "tags": "cafe",
+    "delivery": {
+        "fee": 1,
+        "minimum": 15
+    },
+    "name": "Latea"
+  },
+  {
+    "tags": "dessert",
+    "delivery": {
+        "fee": 0,
+        "minimum": 20
+    },
+    "name": "ECHO"
+  },
+  {
+    "tags": "bento",
+    "delivery": {
+        "fee": 3,
+        "minimum": 20
+    },
+    "name": "新成都"
+  }
+]

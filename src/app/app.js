@@ -11,8 +11,20 @@ let app = () => {
 };
 
 class AppCtrl {
-  constructor() {
+  constructor($http, $scope){
+    console.log('111');
     this.url = 'https://github.com/preboot/angular-webpack';
+    this.contents = {};
+  // read the json file
+    $http.get("../data/rest.json").then(function(data) {
+    // console.log('2222');
+    // console.log(data.data);
+    // console.log(typeof(data));
+    $scope.contents = data.data;
+    // console.log('333');
+    
+    //debugger;
+   });
   }
 }
 
